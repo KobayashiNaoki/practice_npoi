@@ -20,12 +20,16 @@ packagesディレクトリが作成され，その中にNPOIがインストー�
 ## サンプル
 [サンプル Github](https://github.com/nissl-lab/npoi-examples)
 
-以下のディレクトリにexcel, wordそれぞれのサンプルがある．
-[xssf ディレクトリ :](https://github.com/nissl-lab/npoi-examples/tree/main/xssf) Excel 2007 (xlsx)
+以下のディレクトリにexcel, wordそれぞれのサンプルがある．  
+[xssf ディレクトリ :](https://github.com/nissl-lab/npoi-examples/tree/main/xssf) Excel 2007 (xlsx)  
 [wxpf ディレクトリ](https://github.com/nissl-lab/npoi-examples/tree/main/xwpf) : Word 2007 (docx)
 
 
 ## サンプルの動かし方
+excelファイルを生成するサンプルとcellに値を書き込むサンプルを上記のGithubから
+コピーしてきて手元で動かしてみる．
+
+コンパイル，実行するための手順はcompile.shに記述してある．
     
     cd npoi-examples
     bash compile.sh create_excel.cs create_excel.exe
