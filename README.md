@@ -15,6 +15,7 @@ monoはランタイム
 packagesディレクトリが作成され，その中にNPOIがインストールされる
     
     nuget install npoi -OutputDirectory packages
+    nuget install System.Text.Json -OutputDirectory packages
 
 
 ## サンプル
