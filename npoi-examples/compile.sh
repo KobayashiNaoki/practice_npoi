@@ -43,7 +43,7 @@ echo ""
 ##
 echo "# compile by mcs"
 echo "# exec command: mcs /reference:$PATH_TO_DLL /out:$EXE_FILE $SCRIPT_FILE"
-mcs /reference:$PATH_TO_DLL /out:$EXE_FILE $SCRIPT_FILE
+mcs -nowarn /reference:$PATH_TO_DLL /out:$EXE_FILE $SCRIPT_FILE
 compile_state=$? #直前のプロセス(コンパイル)の終了状態
 echo ""
 
