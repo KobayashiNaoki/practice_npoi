@@ -17,7 +17,7 @@ EXE_FILE=$2
 
 PACKAGE_DIR=../packages  # nugetで指定したディレクトリ
 # 使用するライブラリ (スペース区切りで複数指定可)
-PACKAGE_NAMES="NPOI.2.5.2/lib/net45 System.Text.Json.5.0.0/lib/net461 System.Text.Encodings.Web.5.0.0/lib/net461 System.Memory.4.5.4/lib/net461 System.Numerics.Vectors.4.5.0/lib/net46 System.Threading.Tasks.Extensions.4.5.4/lib/net461 System.Threading.Tasks.Extensions.4.5.4/lib System.ValueTuple.4.5.0/lib/net461 System.Buffers.4.5.1/lib/net461 Microsoft.Bcl.AsyncInterfaces.5.0.0/lib/net461 System.Runtime.CompilerServices.Unsafe.5.0.0/lib/net45"
+PACKAGE_NAMES="NPOI.2.5.2/lib/net45 System.Text.Json.5.0.0/lib/net461 System.Text.Encodings.Web.5.0.0/lib/net461 System.Memory.4.5.4/lib/net461 System.Numerics.Vectors.4.5.0/lib/net46 System.Threading.Tasks.Extensions.4.5.4/lib/net461 System.Threading.Tasks.Extensions.4.5.4/lib System.ValueTuple.4.5.0/lib/net461 System.Buffers.4.5.1/lib/net461 Microsoft.Bcl.AsyncInterfaces.5.0.0/lib/net461 System.Runtime.CompilerServices.Unsafe.5.0.0/lib/net45 Newtonsoft.Json.12.0.3/lib/net45"
 
 
 ##
